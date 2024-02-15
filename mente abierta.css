@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/*caja de ceni*/
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+.img {
+    width: 50rem;
+    height: 450px;
+    margin: 5px;
+}
+ 
+h1 { font-size: 4.5em;}
+h2 { font-size: 2.5em;}
+h3 { font-size: 6.5em;}
+p { font-size: 1.5em;}
+
+button {
+    box-shadow: rgba(137, 43, 226, 0.562);
+    font-size: 1.25em;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white
+
+}
+button:hover{
+    background-color: rgba(198, 162, 231, 0.418);
+    color: blueviolet;
+
+}
+
+
+header {
+    background-color: whitesmoke;
+}
+header .logo {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+header .container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+#caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: url(images/cretatiividad.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*texto explora la creatividad*/
+.text01{
+    font-size: 100px;
+    color: rgb(4, 26, 101);
+}
+
+.text2{
+    position: center;
+    margin: 7px;
+    padding: 9px;
+    font-size: 100px;
+    color: rgb(131, 30, 30);
+    text-decoration: none;
+}
+
+#proyectos p {
+    display: none;
+}
+
+#contenedor{
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+ 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+#contenedor01{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+#container01{
+    padding: 5px;
+    text-align: right;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.caja4{
+    align-items: center;
+    width: 24rem;
+    height: 300px;
+}
+.caja4{
+    align-items: center;
+    padding: 50px;
+    margin:30px;
+    background-color: rgba(0, 0, 0, 0.123);
+    background-position: center ;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.caja04{
+    width: 44rem;
+    height: 300px;
+}
+#contenedor1{
+    background-color: whitesmoke;
+
+}
+
+
+@media (min-width: 720px) {
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+}
+
+
+/*pagina al camello*/
+
+body{
+    margin: 0%;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+#contenedor2{
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+.text3{
+    color: black;
+    font-size: 4em;
+    text-decoration: none;
+}
+
+.text {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+#contenedor3{
+    display: flex;
+}
+
+.caja01{
+    background-color: rgba(11, 248, 110, 0.959);
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+}
+#contenedor4{
+    align-items: center;
+    padding: 25px 15px;
+    background-color:whitesmoke;
+    text-align: center;
+   
+    flex-direction: column;
+}
+.boton{
+    margin: 5px;
+    box-shadow: rgba(137, 43, 226, 0.562);
+    font-size: 1.25em;
+    padding: 10px ;
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white  
+}
+.boton:hover{
+    background-color: rgba(198, 162, 231, 0.418);
+    color: blueviolet
+    
+}
+
+.imagen{
+    height: 400px;
+    width: 550px;
+    padding: 30px;  
+}
+.text02{
+    line-height: 1.5;
+}
+#contenedor5{
+    padding: 10px;
+    text-align: right;
+    background-color:whitesmoke;
+}
+.text1{
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    margin: 27px;
+}
+@media (min-width: 720px) {
+    #contenedor4{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #contenedor4{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+}
+.text4{
+    font-size: 20px;
+}

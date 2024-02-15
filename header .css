@@ -1,0 +1,29 @@
+header .container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header .logo{
+    padding: 10px 20px;
+    margin: 0;
+}
+@media (min-width: 720px) {
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+}
